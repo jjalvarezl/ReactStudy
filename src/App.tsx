@@ -23,7 +23,7 @@ function Home () {
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React Study! {`${process.env.REACT_APP_PUBLIC_URL}/`}</h1>
+      <h1>Welcome to React Study!</h1>
       <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/1-tic-tac-toe`} element={<TicTacToe />} />
