@@ -12,7 +12,9 @@ function Home () {
         <p>Here you can select any of these projects done:</p>
       </main>
       <nav>
-        <Link to="/1-tic-tac-toe">Tic tac toe</Link>
+        <ol>
+          <li><Link to={`/1-tic-tac-toe`}>Tic tac toe</Link></li>
+        </ol>
       </nav>
     </>
   );
@@ -21,10 +23,10 @@ function Home () {
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React Study!</h1>
+      <h1>Welcome to React Study! {`${process.env.REACT_APP_PUBLIC_URL}/`}</h1>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="1-tic-tac-toe" element={<TicTacToe />} />
+        <Route path={`/`} element={<Home />} />
+        <Route path={`/1-tic-tac-toe`} element={<TicTacToe />} />
       </Routes>
     </div>
   );

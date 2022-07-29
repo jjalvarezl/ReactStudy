@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cae52cd.css",
-    "main.js": "/static/js/main.cac84dc8.js",
-    "static/js/787.7488bb60.chunk.js": "/static/js/787.7488bb60.chunk.js",
-    "index.html": "/index.html",
-    "main.3cae52cd.css.map": "/static/css/main.3cae52cd.css.map",
-    "main.cac84dc8.js.map": "/static/js/main.cac84dc8.js.map",
-    "787.7488bb60.chunk.js.map": "/static/js/787.7488bb60.chunk.js.map"
+    "main.css": "https://jjalvarezl.github.io/ReactStudy/build/static/css/main.3cae52cd.css",
+    "main.js": "https://jjalvarezl.github.io/ReactStudy/build/static/js/main.da0bb2c9.js",
+    "static/js/787.7488bb60.chunk.js": "https://jjalvarezl.github.io/ReactStudy/build/static/js/787.7488bb60.chunk.js",
+    "index.html": "https://jjalvarezl.github.io/ReactStudy/build/index.html",
+    "main.3cae52cd.css.map": "https://jjalvarezl.github.io/ReactStudy/build/static/css/main.3cae52cd.css.map",
+    "main.da0bb2c9.js.map": "https://jjalvarezl.github.io/ReactStudy/build/static/js/main.da0bb2c9.js.map",
+    "787.7488bb60.chunk.js.map": "https://jjalvarezl.github.io/ReactStudy/build/static/js/787.7488bb60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cae52cd.css",
-    "static/js/main.cac84dc8.js"
+    "static/js/main.da0bb2c9.js"
   ]
 }

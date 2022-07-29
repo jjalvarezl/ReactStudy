@@ -19,8 +19,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "REACT_APP_BUILD_PATH=/build react-scripts start",
+    "build-dev": "PUBLIC_URL=http://localhost:3000/build REACT_APP_BUILD_PATH=/build react-scripts build",
+    "build-prod": "PUBLIC_URL=https://jjalvarezl.github.io/ReactStudy/build REACT_APP_BUILD_PATH=/ReactStudy/build react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
