@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route, Link } from "react-router-dom";
 import TicTacToe from './1-tic-tac-toe';
+import TicTacToeWithRedux from './2-tic-tac-toe-with-redux';
 import './App.css';
 
 
@@ -14,6 +15,7 @@ function Home () {
       <nav>
         <ol>
           <li><Link to={`/1-tic-tac-toe`}>Tic tac toe</Link></li>
+          <li><Link to={`/2-tic-tac-toe-with-redux`}>Tic tac toe with Redux</Link></li>
         </ol>
       </nav>
     </>
@@ -27,6 +29,7 @@ function App() {
       <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/1-tic-tac-toe`} element={<TicTacToe />} />
+        <Route path={`/2-tic-tac-toe-with-redux`} element={<TicTacToeWithRedux />} />
       </Routes>
     </div>
   );
